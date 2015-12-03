@@ -15,6 +15,13 @@
 		CCA42C181C0EF1DD00B96E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA42C161C0EF1DD00B96E25 /* LaunchScreen.storyboard */; };
 		CCA42C231C0EF1DD00B96E25 /* AWKWARDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA42C221C0EF1DD00B96E25 /* AWKWARDTests.m */; };
 		CCA42C2E1C0EF1DD00B96E25 /* AWKWARDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA42C2D1C0EF1DD00B96E25 /* AWKWARDUITests.m */; };
+		CCA42C9D1C0F15FF00B96E25 /* 14420170.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA42C9C1C0F15FF00B96E25 /* 14420170.png */; };
+		CCA42CA51C0F1FD900B96E25 /* faxian.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA42CA41C0F1FD900B96E25 /* faxian.png */; };
+		CCA42CA71C0F20E700B96E25 /* group.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA42CA61C0F20E700B96E25 /* group.png */; };
+		CCA42CA91C0F24E800B96E25 /* touxiang.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA42CA81C0F24E800B96E25 /* touxiang.png */; };
+		CCA42CAD1C0F26CA00B96E25 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA42CAC1C0F26CA00B96E25 /* photo.png */; };
+		CCA42CB11C0F27BC00B96E25 /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA42CB01C0F27BC00B96E25 /* message.png */; };
+		CCA42CB41C0F2DA900B96E25 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA42CB31C0F2DA900B96E25 /* UserViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,14 @@
 		CCA42C291C0EF1DD00B96E25 /* AWKWARDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWKWARDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA42C2D1C0EF1DD00B96E25 /* AWKWARDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWKWARDUITests.m; sourceTree = "<group>"; };
 		CCA42C2F1C0EF1DD00B96E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA42C9C1C0F15FF00B96E25 /* 14420170.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14420170.png; sourceTree = "<group>"; };
+		CCA42CA41C0F1FD900B96E25 /* faxian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faxian.png; sourceTree = "<group>"; };
+		CCA42CA61C0F20E700B96E25 /* group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group.png; sourceTree = "<group>"; };
+		CCA42CA81C0F24E800B96E25 /* touxiang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touxiang.png; sourceTree = "<group>"; };
+		CCA42CAC1C0F26CA00B96E25 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		CCA42CB01C0F27BC00B96E25 /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
+		CCA42CB21C0F2DA900B96E25 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		CCA42CB31C0F2DA900B96E25 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,8 @@
 				CCA42C0C1C0EF1DD00B96E25 /* AppDelegate.m */,
 				CCA42C0E1C0EF1DD00B96E25 /* ViewController.h */,
 				CCA42C0F1C0EF1DD00B96E25 /* ViewController.m */,
+				CCA42CB21C0F2DA900B96E25 /* UserViewController.h */,
+				CCA42CB31C0F2DA900B96E25 /* UserViewController.m */,
 				CCA42C111C0EF1DD00B96E25 /* Main.storyboard */,
 				CCA42C141C0EF1DD00B96E25 /* Assets.xcassets */,
 				CCA42C161C0EF1DD00B96E25 /* LaunchScreen.storyboard */,
@@ -117,6 +134,12 @@
 		CCA42C081C0EF1DD00B96E25 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CCA42CB01C0F27BC00B96E25 /* message.png */,
+				CCA42CAC1C0F26CA00B96E25 /* photo.png */,
+				CCA42CA81C0F24E800B96E25 /* touxiang.png */,
+				CCA42CA61C0F20E700B96E25 /* group.png */,
+				CCA42CA41C0F1FD900B96E25 /* faxian.png */,
+				CCA42C9C1C0F15FF00B96E25 /* 14420170.png */,
 				CCA42C091C0EF1DD00B96E25 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -245,7 +268,13 @@
 			files = (
 				CCA42C181C0EF1DD00B96E25 /* LaunchScreen.storyboard in Resources */,
 				CCA42C151C0EF1DD00B96E25 /* Assets.xcassets in Resources */,
+				CCA42CA51C0F1FD900B96E25 /* faxian.png in Resources */,
+				CCA42CA91C0F24E800B96E25 /* touxiang.png in Resources */,
+				CCA42C9D1C0F15FF00B96E25 /* 14420170.png in Resources */,
+				CCA42CA71C0F20E700B96E25 /* group.png in Resources */,
+				CCA42CAD1C0F26CA00B96E25 /* photo.png in Resources */,
 				CCA42C131C0EF1DD00B96E25 /* Main.storyboard in Resources */,
+				CCA42CB11C0F27BC00B96E25 /* message.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCA42C101C0EF1DD00B96E25 /* ViewController.m in Sources */,
+				CCA42CB41C0F2DA900B96E25 /* UserViewController.m in Sources */,
 				CCA42C0D1C0EF1DD00B96E25 /* AppDelegate.m in Sources */,
 				CCA42C0A1C0EF1DD00B96E25 /* main.m in Sources */,
 			);
@@ -496,6 +526,7 @@
 				CCA42C341C0EF1DD00B96E25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCA42C351C0EF1DD00B96E25 /* Build configuration list for PBXNativeTarget "AWKWARDTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +535,7 @@
 				CCA42C371C0EF1DD00B96E25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCA42C381C0EF1DD00B96E25 /* Build configuration list for PBXNativeTarget "AWKWARDUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +544,7 @@
 				CCA42C3A1C0EF1DD00B96E25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
